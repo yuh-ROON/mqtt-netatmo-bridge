@@ -26,7 +26,7 @@ Here's an example docker compose:
 version: '3.3'
 services:
   mqtt-netatmo-bridge:
-    image: terafin/mqtt-netatmo-bridge:latest
+    image: mqtt-netatmo-bridge:latest
     environment:
       LOGGING_NAME: mqtt-netatmo-bridge
       TZ: YOUR_TIMEZONE (eg: America/Los_Angeles)
