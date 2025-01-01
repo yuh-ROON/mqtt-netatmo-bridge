@@ -16,6 +16,9 @@ Thanks to @skyynet for some documentation for how to set this up on a Synology N
 * English: https://skyynet.de/e-netatmo
 * German: https://skyynet.de/netatmo
 
+## Build the image
+docker build https://github.com/yuh-ROON/mqtt-netatmo-bridge.git -t mqtt-netatmo-bridge
+
 ## Docker Compose
 Here's an example docker compose:
 
