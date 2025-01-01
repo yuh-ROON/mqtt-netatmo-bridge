@@ -71,6 +71,7 @@ var auth = {
     'client_secret': netatmo_client_secret,
     'username': netatmo_user,
     'password': netatmo_pass,
+    'access_token': netatmo_access_token,
 }
 
 var api = null
